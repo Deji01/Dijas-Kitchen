@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dija's Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header"><!--Beginning header section-->   
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!--Beginning navbar Div-->
+            <div class="container-fluid"><!--Beginning container fluid Div-->
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html">Dijas KITCHEN</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="flex">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown"><!--Beginning navbar-collapse Div-->
+                        <ul class="navbar-nav"><!--Beginning navbar-nav ul-->
+                            <li class="nav-item"><!--Beginning Home nav-item-->
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li><!--End Home nav-item-->
+                            <li class="nav-item dropdown"><!--Beginning Menu-categories nav-item-->
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu Categories
+                                </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><!--Beginning dropdown-menu ul-->
+                                <li><a class="dropdown-item" href="maindishes.html">Main Dishes</a></li><!--Main-dishes dropdown-item-->
+                                <li><a class="dropdown-item" href="soups.html">Soups</a></li><!--Soups dropdown-item-->
+                                <li><a class="dropdown-item" href="bulksoups.html">Bulk Soups</a></li><!--Bulk-soups dropdown-item-->
+                                <li><a class="dropdown-item" href="protein.html">Protein</a></li><!--Protein dropdown-item-->
+                                <li><a class="dropdown-item" href="drinks.html">Drinks</a></li><!--Drinks dropdown-item-->
+                            </ul><!--End dropdown-menu ul-->
+                            </li><!--End Menu-categories nav-item-->
+                            <li class="nav-item"><!--Beginning About-us nav-item-->
+                                <a class="nav-link active" href="contactus.html">Contact Us</a>
+                            </li><!--End About-us nav-item-->
+                            <li class="nav-item"><!--Beginning Sign-up nav-item-->
+                                <a class="nav-link active" href="signup.html">Sign up</a>
+                            </li><!--End Sign-up nav-item-->
+                            <li class="nav-item"><!--Beginning Sign-in nav-item-->
+                                <a class="nav-link active" href="#">Sign in</a>
+                            </li><!--End Sign-in nav-item-->
+                            <li class="nav-item"><!--Beginning Cart nav-item-->
+                                <a class="nav-link active" href="#">Cart</a>
+                            </li><!--End Cart nav-item-->
+                        </ul><!--End navbar-nav ul-->
+                    </div><!--End navbar-collapse Div-->
+                </div>
+            </div><!--End container fluid Div-->
+        </nav><!--End navbar Div-->
+    </section><!--End header section-->
+        
+    <section class="location"><!--Beginning location section-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31710.232580926786!2d3.3101933803729895!3d6.549554632469753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e12688239a1%3A0x51db8acb5f2f969c!2sAjao%20Estate%2C%20Lagos!5e0!3m2!1sen!2sng!4v1622994509080!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section><!--End location section-->
+    
+    <section class="contact-us"><!--Beginning contact-us section-->
+            <div class="row"><!--Beginning row Div-->
+                <div class="contact-col"><!--Beginning contact-col Div-->
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Ajao Estate</h5>
+                            <p>Lagos, Nigeria</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>08124697980</h5>
+                            <p>Monday to saturday, 10AM to 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>bimbsmakeover@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div><!--End contact-col Div-->
+                <div class="contact-col"><!--Beginning contact-col Div-->
+                    <form action="form-handler.php" method="POST">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea  rows="8" name="message`" placeholder="Message" required ></textarea>  
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div><!--End contact-col Div-->
+            </div><!--End row Div-->
+    </section><!--End contact-us section-->
+
+    
+    
+    <section class="footer"><!--Beginning footer section-->
+        <small>&copy;2021 Proudly created by Yekeen Ayodeji</small>
+    </section><!--End footer section-->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

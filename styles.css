@@ -404,6 +404,7 @@ nav li a
 /* End: soups */
 
 
+
 /* Start: media queries */
 
 @media(max-width:768px)
@@ -441,39 +442,7 @@ nav li a
 
 }
 
-@media (min-width: 651px) {
- 
-  .hero-class h1, .hero-class p
-  {
-    text-align: center;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    color: #fff;
-  }
-    .hero-class h1
-    {
-        font-size: 2em;
-        
-    }
-    
-    .hero-class p
-    {
-      
-        font-size: 0.9em;
-    }
 
-    .about-us h1 
-    {
-      font-size: 0.8em;
-    }
-    .about-us p 
-    {
-      font-size: 0.7em; 
-    }
-
-}
 
 @media (max-width: 650px) {
   .hero-class h1, .hero-class p
